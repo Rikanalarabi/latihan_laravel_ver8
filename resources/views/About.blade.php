@@ -4,7 +4,7 @@
     <div class="container mt-3">
         <h1>About Us</h1>
         <p>Nama : {{ $Name }}</p>
-        <p> Email : <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=Rikanalarabi8@gmail.com">{{ $Email }}</a></p>
+        <p> Email : <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=Rikanalarabi8@gmail.com" class="fw-bold">{{ $Email }}</a></p>
         <img src="img/{{ $image }}" alt="{{ $Name }}" title="{{ $Name }}" width="150">
     </div>
     <br>
